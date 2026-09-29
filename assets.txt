@@ -1,0 +1,20 @@
+Asset list: VR Modeling labs 1 to 3
+
+3D MODELS (12 unique, all textured and with collisions)
+Kenney Furniture Kit (CC0): https://kenney.nl/assets/furniture-kit
+  kitchenFridge, kitchenCabinet, kitchenSink, kitchenCabinetDrawer, kitchenStove,
+  kitchenCabinetUpper, hoodModern, kitchenMicrowave, kitchenCoffeeMachine,
+  kitchenBlender, kitchenBar, kitchenBarEnd
+Also built in Godot from primitive shapes: wall clock, cooking pot, floor and walls.
+
+TEXTURES (made by me, assets/textures/)
+  wood_grain.png, brushed_metal.png, surface_grain.png: furniture materials (triplanar)
+  floor_tiles.png, wall_plaster.png: floor and walls
+
+SOUNDS (synthesized by me with Python, assets/audio/)
+  Interaction feedback: door_open, door_close, drawer, blender, coffee, microwave, water,
+                        step_done, wrong, complete
+  Ambient loops: amb_fridge_hum, amb_clock, amb_birds, amb_drip, amb_simmer
+
+PARTICLE EFFECTS (Godot GPUParticles3D, scripts/effects.gd)
+  dust, steam, drip, water, splash, mist, heat, confetti
